@@ -38,7 +38,7 @@ public class Acesso {
 		
 	}
 	
-	static void RealizarAcesso() throws InterruptedException {
+	static void RealizarAcesso(String usuarioAcesso, String senhaAcesso) throws InterruptedException {
 		ConfiguracaoSelenium.ConfigurarDriver();
 		String url = "https://www.instagram.com/accounts/login/?source=auth_switcher";
 		String tituloReferencia = "Entrar • Instagram";

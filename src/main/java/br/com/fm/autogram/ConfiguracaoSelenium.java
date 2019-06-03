@@ -34,6 +34,7 @@ public class ConfiguracaoSelenium {
 		capabilities.setCapability(CapabilityType.LOGGING_PREFS, pref);
 		FirefoxOptions options = new FirefoxOptions(capabilities);
 		options.setLogLevel(FirefoxDriverLogLevel.TRACE);
+		options.addArguments("--headless");
 		driver = new FirefoxDriver(options);
 	}
 }
