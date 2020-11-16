@@ -1,6 +1,6 @@
 # Autogram
 
-Java/Selenium project to automate Instagram navigation.
+Java with Selenium Instagram bot
 
 ## Built With
 
