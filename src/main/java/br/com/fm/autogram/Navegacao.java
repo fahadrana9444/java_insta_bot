@@ -11,6 +11,7 @@ public class Navegacao {
 
 	private static void VoltarInicio() throws InterruptedException {
 		String url = "https://www.instagram.com/";
+		// Goto Url
 		String tituloReferencia = "Instagram";
 		String tituloNavegacao = "";
 		ConfiguracaoSelenium.driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
