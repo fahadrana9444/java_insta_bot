@@ -25,7 +25,7 @@ public class Navegacao {
 		}
 	}
 
-
+// running error
 	
 	static void SeguirUsuario(String usuarioSeguir) throws InterruptedException {
 		String usuarios[] = usuarioSeguir.split(" ");
